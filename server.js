@@ -33,7 +33,7 @@ app.get('/users', function(req,res){
 app.post('/login',function(req,res){
             const username=req.body.username;
             const password=req.body.password;
-        
+            console.log(req.body.username);
             const mockUsername="billyTheKid";
             const mockPassword="superSecret";
         
